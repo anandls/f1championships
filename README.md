@@ -73,3 +73,4 @@ Then to start the server
 #### `yarn start`
 
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+The port can be updated in the main package.json file, by changing the proxy value as in `proxy": "http://localhost:8080`
