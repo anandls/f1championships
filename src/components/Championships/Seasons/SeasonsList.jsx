@@ -12,7 +12,7 @@ const SeasonsList = (props) => {
           <header>
             <section className={styles.info}>
               <h1>
-                Champions for seasons between {DEFAULT_START_YEAR} -{" "}
+                Winners for seasons between {DEFAULT_START_YEAR} -{" "}
                 {DEFAULT_END_YEAR}
               </h1>
             </section>
