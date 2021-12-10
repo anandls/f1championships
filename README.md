@@ -43,30 +43,33 @@ The application uses
 - React Router
 - Node with Express to serve a build version of the app
 
-# Run
+## Run
 
 The app is deployed to Heroku. 
 Open [https://f1championship-app.herokuapp.com/](https://f1championship-app.herokuapp.com/) to view it in the browser.
 
-# Getting Started with Create React App
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Run the command below to install dependencies
-### `yarn`
+Please run the command below, in the root folder of the project to install dependencies
+#### `yarn`
 
 To run the app in the development mode:
 In the root directory of the project, please run:
-### `yarn dev`
+#### `yarn dev`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-To run a build version of the project, please run the commands below:
-### `yarn build`
+To run a build version of the project, please run the command below:
+#### `yarn build`
 
-Run the command below to install server dependencies
-### `cd server `
-### `yarn OR npm install`
-### `cd ..`
+Then do the following to install server dependencies
+#### `cd server `
+#### `yarn OR npm install`
+
+Then to start the server
+#### `cd ..`
+#### `yarn start`
 
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
