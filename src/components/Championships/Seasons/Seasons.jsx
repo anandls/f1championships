@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SeasonsList from "./SeasonsList";
+import { LIMIT, OFFSET } from "../../../constants";
 import { getRequest } from "../../../services/api";
 
 const Seasons = () => {
@@ -8,7 +9,7 @@ const Seasons = () => {
 
   useEffect(() => {
     async function getResults() {
-      const url = `/driverStandings/1.json?limit=16&offset=55`;
+      const url = `/driverStandings/1.json?limit=${LIMIT}&offset=${OFFSET}`;
 
       try {
         const result = await getRequest(url);
