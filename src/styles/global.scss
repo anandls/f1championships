@@ -1,0 +1,18 @@
+@import './_variables.scss';
+@import './_screen.scss';
+@import './_mixin.scss';
+@import './_color.scss';
+@import './_typography.scss';
+@import './_reset.scss';
+
+body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  font-weight: $body-font-weight;
+  color: #{$body-color};
+  line-height: 1.30;  
+}
+
+a {
+  color: $primary-color
+}

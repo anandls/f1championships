@@ -1,0 +1,26 @@
+
+/*=============================================
+=           HTML font                  =
+=============================================*/
+
+html {
+  font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  background-color: $bg-primary;
+  
+}
+
+/*=============================================
+=            Body font family                  =
+=============================================*/
+$body-font-family: var(--body-font-family, $outfit) !default;
+
+/*=============================================
+=            Body font sizes                  =
+=============================================*/
+
+$body-font-size: var(--body-font-size, $fs-base) !default;
+$body-font-weight: var(--body-font-weight, $fw-normal) !default;

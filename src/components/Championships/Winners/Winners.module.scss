@@ -1,0 +1,37 @@
+@import '../../../styles/global.scss';
+
+.grid {  
+  display: grid;
+   grid-gap: 1.5em;
+   min-height: 60vh;
+    
+  .section {
+    background-color: $body-color;
+    border: 0px;    
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px rgb(197, 194, 194);
+  }
+
+  @include mobile {
+    .section {
+      margin: 15px;
+    }
+  }
+}
+
+.highlight{
+    background-color: #e4e4e4;
+}
+
+.highlightText{
+  color: $primary-color;
+  font-weight: $fw-semibold;
+}
+
+section a {
+  font-size: $fs-lg;
+}
+
+section div {
+   padding: 18px 0px 0px 55px;
+}

@@ -1,0 +1,62 @@
+@import '../../../styles/global.scss';
+
+.grid {  
+  display: grid;
+   grid-gap: 1em;
+   min-height: 60vh;
+
+  .section {
+    background-color: $body-color;    
+    border: 0px;    
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 5px rgb(197, 194, 194);
+  }
+
+  @include mobile {
+    .section {
+      margin: 15px;
+    }
+  }
+}
+
+header {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+     h1 {
+        font-size: $fs-xl;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin: 0;
+        padding:25px 0 25px 56px;
+        color: $dark;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    color: $dark;  
+}
+
+tr {    
+    &:hover {
+        background-color: $light-hover-color;
+        cursor: pointer;
+    }
+}
+
+td {
+    text-align: left;
+    border: 1px solid $borders;
+    height: 55px;
+    padding:5px 0 5px 60px;
+}
+
+th {
+    border: 0;
+    text-align: left;
+    padding:5px 0 25px 60px;
+}
