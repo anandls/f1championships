@@ -29,7 +29,7 @@ The project consists of the structure below, for it's main components:
     package.json
 ```
 
-- The pages in the `views` folder are used for the routing and as containers for the relevant components found under `components\Championships`
+- The pages in the `views` folder is used for the routing and as containers for the relevant components found under `components\Championships`
 - The `services` folder contains an `api.js` file with a function that takes in a URL and makes a call (using the `axios` package) to the Ergast API for the relevant requests
 - The `styles` folder has default styles that are imported into `global.scss` for use in components
 - The `components\Championships\*` folders have their own `.scss.module` stylesheet
