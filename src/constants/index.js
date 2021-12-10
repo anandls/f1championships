@@ -3,10 +3,10 @@ const d = new Date();
 const BASE_URL = "https://ergast.com/api/f1";
 const DEFAULT_BEGIN_YEAR = 1950;
 const DEFAULT_START_YEAR = 2005;
-const DEFAULT_END_YEAR = d.getFullYear();
+const DEFAULT_END_YEAR = 2021;
 const ERROR_NODATA_MESSAGE = "Data not available...";
 const LIMIT = DEFAULT_END_YEAR - DEFAULT_START_YEAR;
-const OFFSET = DEFAULT_START_YEAR - DEFAULT_BEGIN_YEAR;
+const OFFSET = DEFAULT_START_YEAR - DEFAULT_BEGIN_YEAR + 1;
 
 export {
   BASE_URL,
